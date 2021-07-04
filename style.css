@@ -19,10 +19,17 @@ body {
   text-align: center;
   font-weight: 600;
 }
-.nav .icon {
+.nav .icon1 {
   position: absolute;
   top: 50%;
   right: 10px;
+  margin: 0;
+  transform: translateY(-50%);
+}
+.nav .icon2 {
+  position: absolute;
+  top: 50%;
+  left: 10px;
   margin: 0;
   transform: translateY(-50%);
 }

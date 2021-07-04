@@ -23,6 +23,7 @@ self.addEventListener("install", (e) => {
         "./icons/play.svg",
         "./icons/share.svg",
         "./icons/whatsapp.svg",
+        "./icons/left.svg",
       ]);
     })
   );
