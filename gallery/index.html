@@ -17,6 +17,10 @@
         <div id="back-btn" class="icon2">
           <img src="../icons/left.svg" alt="nav-icon" /></div
       ></a>
+      <a href="/gallery">
+        <div id="back-btn" class="tempBtn icon2" style="display: none">
+          <img src="../icons/left.svg" alt="nav-icon" /></div
+      ></a>
     </div>
     <div class="screen">
       <div class="galleryGrid">
@@ -27,6 +31,19 @@
           <img src="../images/image3.png" alt="pic" />
         </div>
       </div>
+
+      <img class="bigImage" src="../images/image3.png" alt="pic" />
     </div>
+
+    <script>
+      document.querySelectorAll(".galleryImage").forEach((i) =>
+        i.addEventListener("click", () => {
+          window.open("#", "_self");
+          document.querySelector(".tempBtn").style.display = "block";
+          document.querySelector(".bigImage").style.display = "block";
+          document.querySelector(".bigImage").src = i.childNodes[1].src;
+        })
+      );
+    </script>
   </body>
 </html>

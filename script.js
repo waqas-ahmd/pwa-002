@@ -20,9 +20,6 @@ document.querySelector("#whatsapp-btn").addEventListener("click", () => {
 document.querySelector("#appointment-btn").addEventListener("click", () => {
   window.open("https://calendly.com/medicalaestetic", "_blank");
 });
-// document.querySelector("#play-btn").addEventListener("click", () => {
-//   window.open("/video");
-// });
 // document.querySelector("#gallery-btn").addEventListener("click", () => {
 //   window.open("https://calendly.com/medicalaestetic", "_blank");
 // });
