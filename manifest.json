@@ -1,0 +1,16 @@
+{
+  "short_name": "PWA App",
+  "name": "Progressive Web Application",
+  "icons": [
+    {
+      "src": "./images/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#3a8",
+  "display": "standalone",
+  "theme_color": "#3a8",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Placeat optio"
+}
